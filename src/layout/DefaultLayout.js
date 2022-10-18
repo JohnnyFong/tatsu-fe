@@ -11,7 +11,6 @@ const DefaultLayout = () => {
     if (!userProfile.token) {
       navigate('/login')
     }
-    console.log('here')
   }, [navigate, userProfile.token])
 
   return (

@@ -29,9 +29,7 @@ const Profile = () => {
 
   useEffect(() => {
     httpRequestGet(WS_BOOKMARKS_OWN).then((res) => {
-      console.log(res.data)
       setItemDetails(res.data)
-      console.log(JSON.parse(res.data[0].Tokens[0].metadata).name)
     })
     httpRequestGet(WS_COLLECTION_STATS).then((res) => {
       setStatsDetails(res)
