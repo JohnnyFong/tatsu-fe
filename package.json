@@ -15,7 +15,7 @@
     "build": "react-scripts build",
     "predeploy" : "npm run build",
     "deploy" : "gh-pages -d build",
-    "deployServer": "npm run build && pm2 serve 5000 --name tatsu-fe",
+    "deployServer": "npm run build && pm2 serve build 5000 --name tatsu-fe",
     "update": "npm run build && npm run restart",
     "changelog": "auto-changelog --starting-version 4.4.0 --commit-limit false --hide-credit",
     "eject": "react-scripts eject",
