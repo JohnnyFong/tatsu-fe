@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/tatsu-fe/static/css/main.cd7b2a32.css",
-    "main.js": "/tatsu-fe/static/js/main.b422d8db.js",
+    "main.js": "/tatsu-fe/static/js/main.fce8e1e4.js",
     "static/css/523.9fbce0e0.chunk.css": "/tatsu-fe/static/css/523.9fbce0e0.chunk.css",
-    "static/js/523.58324716.chunk.js": "/tatsu-fe/static/js/523.58324716.chunk.js",
-    "static/js/878.ef045c3a.chunk.js": "/tatsu-fe/static/js/878.ef045c3a.chunk.js",
-    "static/js/9.b19d16b7.chunk.js": "/tatsu-fe/static/js/9.b19d16b7.chunk.js",
+    "static/js/523.16724aff.chunk.js": "/tatsu-fe/static/js/523.16724aff.chunk.js",
+    "static/js/878.194b7d41.chunk.js": "/tatsu-fe/static/js/878.194b7d41.chunk.js",
+    "static/js/9.8ea0808c.chunk.js": "/tatsu-fe/static/js/9.8ea0808c.chunk.js",
     "static/js/1.06991b04.chunk.js": "/tatsu-fe/static/js/1.06991b04.chunk.js",
     "static/js/188.46a9c346.chunk.js": "/tatsu-fe/static/js/188.46a9c346.chunk.js",
     "static/js/787.14675f11.chunk.js": "/tatsu-fe/static/js/787.14675f11.chunk.js",
@@ -21,11 +21,11 @@
     "static/media/tatsu.webp": "/tatsu-fe/static/media/tatsu.446f56f5fc13ce898042.webp",
     "index.html": "/tatsu-fe/index.html",
     "main.cd7b2a32.css.map": "/tatsu-fe/static/css/main.cd7b2a32.css.map",
-    "main.b422d8db.js.map": "/tatsu-fe/static/js/main.b422d8db.js.map",
+    "main.fce8e1e4.js.map": "/tatsu-fe/static/js/main.fce8e1e4.js.map",
     "523.9fbce0e0.chunk.css.map": "/tatsu-fe/static/css/523.9fbce0e0.chunk.css.map",
-    "523.58324716.chunk.js.map": "/tatsu-fe/static/js/523.58324716.chunk.js.map",
-    "878.ef045c3a.chunk.js.map": "/tatsu-fe/static/js/878.ef045c3a.chunk.js.map",
-    "9.b19d16b7.chunk.js.map": "/tatsu-fe/static/js/9.b19d16b7.chunk.js.map",
+    "523.16724aff.chunk.js.map": "/tatsu-fe/static/js/523.16724aff.chunk.js.map",
+    "878.194b7d41.chunk.js.map": "/tatsu-fe/static/js/878.194b7d41.chunk.js.map",
+    "9.8ea0808c.chunk.js.map": "/tatsu-fe/static/js/9.8ea0808c.chunk.js.map",
     "1.06991b04.chunk.js.map": "/tatsu-fe/static/js/1.06991b04.chunk.js.map",
     "188.46a9c346.chunk.js.map": "/tatsu-fe/static/js/188.46a9c346.chunk.js.map",
     "787.14675f11.chunk.js.map": "/tatsu-fe/static/js/787.14675f11.chunk.js.map",
@@ -39,6 +39,6 @@
   },
   "entrypoints": [
     "static/css/main.cd7b2a32.css",
-    "static/js/main.b422d8db.js"
+    "static/js/main.fce8e1e4.js"
   ]
 }
