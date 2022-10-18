@@ -14,7 +14,7 @@
   "author": "The CoreUI Team (https://github.com/orgs/coreui/people)",
   "scripts": {
     "build": "react-scripts build",
-    "deploy": "npm run build && pm2 serve QG 3006 --name quarters-frontend",
+    "deploy": "npm run build && pm2 serve 5000 --name tatsu-fe",
     "update": "npm run build && npm run restart",
     "changelog": "auto-changelog --starting-version 4.4.0 --commit-limit false --hide-credit",
     "eject": "react-scripts eject",
