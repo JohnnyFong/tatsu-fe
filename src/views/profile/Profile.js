@@ -10,15 +10,9 @@ import {
   CCol,
   CRow,
 } from '@coreui/react'
-import { httpRequestDelete, httpRequestGet, httpRequestPost } from 'src/utils/webUtil'
-import {
-  WS_BOOKMARKS,
-  WS_BOOKMARKS_OWN,
-  WS_COLLECTION_LISTING,
-  WS_COLLECTION_STATS,
-} from 'src/constants/constants'
+import { httpRequestDelete, httpRequestGet } from 'src/utils/webUtil'
+import { WS_BOOKMARKS, WS_BOOKMARKS_OWN, WS_COLLECTION_STATS } from 'src/constants/constants'
 
-import solanaImg from 'src/assets/images/Solana_logo.png'
 import anim from 'src/assets/images/anim.webp'
 import { setToastState } from 'src/states/toastState'
 import { useNavigate } from 'react-router-dom'

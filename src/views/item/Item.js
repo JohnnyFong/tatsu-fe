@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import {
-  CButton,
   CCard,
   CCardBody,
   CCardImage,
@@ -15,7 +14,6 @@ import {
   CTableHeaderCell,
   CTableRow,
 } from '@coreui/react'
-import solanaImg from 'src/assets/images/Solana_logo.png'
 import { useLocation } from 'react-router-dom'
 import { httpRequestGet } from 'src/utils/webUtil'
 import { WS_ACTIVITIES, WS_TOKEN_METADATA } from 'src/constants/constants'

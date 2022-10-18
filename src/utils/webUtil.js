@@ -20,26 +20,14 @@ instance.interceptors.request.use(function (config) {
 }, undefined)
 
 // Add a response interceptor
-instance.interceptors.response.use(
-  function (res) {
-    // Any status codes that falls outside the range of 2xx cause this function to trigger
-    // SESSION TIMEOUT HANDLING
-
-    if (res.status !== 200 && res.status !== 201 && res.data.code !== 200) {
-      if (res.data.code === 501) {
-        setUserProfileState({})
-        localStorage.removeItem(KEY_USER_PROFILE)
-      }
-      setToastState({ status: 'danger', message: res?.data?.message })
-      return Promise.reject(res)
-    }
-    return res
-  },
-  function (res) {
-    setToastState({ status: 'danger', message: res?.response?.data?.message })
-    return Promise.reject(res)
-  },
-)
+instance.interceptors.response.use(undefined, function (res) {
+  if (res.response.data.statusCode === 401) {
+    setUserProfileState({})
+    localStorage.removeItem(KEY_USER_PROFILE)
+  }
+  setToastState({ status: 'danger', message: res?.response?.data?.message })
+  return Promise.reject(res)
+})
 
 const httpRequestGet = (url, config) => {
   return new Promise((resolve, reject) => {
