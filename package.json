@@ -2,7 +2,7 @@
   "name": "@coreui/coreui-free-react-admin-template",
   "version": "4.4.0",
   "description": "CoreUI Free React Admin Template",
-  "homepage": ".",
+  "homepage": "http://JohnnyFong.github.io/tatsu-fe",
   "bugs": {
     "url": "https://github.com/coreui/coreui-free-react-admin-template/issues"
   },
@@ -14,7 +14,9 @@
   "author": "The CoreUI Team (https://github.com/orgs/coreui/people)",
   "scripts": {
     "build": "react-scripts build",
-    "deploy": "npm run build && pm2 serve 5000 --name tatsu-fe",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
+    "deployServer": "npm run build && pm2 serve 5000 --name tatsu-fe",
     "update": "npm run build && npm run restart",
     "changelog": "auto-changelog --starting-version 4.4.0 --commit-limit false --hide-credit",
     "eject": "react-scripts eject",
@@ -52,6 +54,7 @@
     "auto-changelog": "~2.4.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
+    "gh-pages": "^4.0.0",
     "prettier": "2.7.1",
     "react-scripts": "5.0.1",
     "sass": "^1.54.4",
